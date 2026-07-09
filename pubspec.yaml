@@ -18,6 +18,9 @@ dependencies:
   purchases_flutter: ^10.4.1
   video_player: ^2.11.1
 
+dependency_overrides:
+  ffmpeg_kit_flutter_min_gpl: ^6.0.3
+
 dev_dependencies:
   flutter_launcher_icons: ^0.14.4
   flutter_test:
