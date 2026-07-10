@@ -1,14 +1,13 @@
 # AuraCut — partial build
 
 ## What happened
-We hit a cost limit before the build could completely finish setting up AuraCut. Your in-progress source code has been successfully saved to your build branch so that no progress is lost.
+
+We couldn't finish this build cleanly. While some initial configuration and files have been set up, a build step failed to complete successfully.
 
 ## What's in this build
-The generated files represent the initial structure of AuraCut:
-* Fully configured Flutter project structures (`pubspec.yaml`, theme configuration, and directories).
-* Scaffolded models for product metadata and video configurations.
-* Local video generation, web scraping, and subscription verification service layers.
-* Custom UI screens for the Dashboard, Template Selection, Batch Preview, Export Progress, and Paywall flows.
+
+The codebase contains the scaffolding and initial structure for AuraCut, ready for a clean retry.
 
 ## Next steps
-Please open your build in AppScout and run the retry option. Most failures of this nature are transient and can be completed cleanly on a fresh attempt.
+
+Open the build in AppScout and try again — most failures are transient and a fresh attempt succeeds.
