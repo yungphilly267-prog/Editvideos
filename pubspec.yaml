@@ -19,7 +19,8 @@ dependencies:
   video_player: ^2.11.1
 
 dependency_overrides:
-  ffmpeg_kit_flutter_min_gpl: ^6.0.3
+  ffmpeg_helper:
+    path: ./ffmpeg_helper
 
 dev_dependencies:
   flutter_launcher_icons: ^0.14.4
